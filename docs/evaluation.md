@@ -1,0 +1,3 @@
+# Evaluation plan
+
+Use held-out documents and question/page labels. `evaluation.score` measures whether retrieval finds an expected page at k and reports reciprocal rank. For DocVQA-style reference answers, separately report normalized edit similarity (ANLS) or exact match, answer citation precision, and citation page hit rate. Split by document rather than question to avoid leakage. Record OCR coverage, retrieval latency, answer latency, and manual review of unsupported responses.
